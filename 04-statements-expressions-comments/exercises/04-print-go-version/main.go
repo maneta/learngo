@@ -21,7 +21,10 @@ package main
 // EXPECTED OUTPUT
 //  "go1.10"
 // ---------------------------------------------------------
-
+import (
+	"fmt"
+	"runtime"
+)
 func main() {
-	// ?
+	fmt.Println(runtime.Version())
 }

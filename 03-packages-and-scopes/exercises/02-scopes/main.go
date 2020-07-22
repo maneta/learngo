@@ -8,6 +8,7 @@
 
 package main
 
+import "fmt"
 // ---------------------------------------------------------
 // EXERCISE: Try the scopes
 //
@@ -29,4 +30,9 @@ package main
 // ---------------------------------------------------------
 
 func main() {
+	hello()
+}
+
+func bye()  {
+	fmt.Println("bye bye")
 }
